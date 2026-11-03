@@ -4,7 +4,8 @@ function getFormvalue(e) {
 	let form=document.getElementbyId('form1');
 	let fname=form.target[0].value;
 	let lname=form.target[1].value;
-	alert(fname,lname)
+	let fullname=fname+lname
+	alert(fullname)
 	
 
 }
